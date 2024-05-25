@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:5205/';
+export const BASE_URL = 'https://pc-hotel-api.azurewebsites.net/';
 
 export const ENDPOINTS = {
     HOTEL: {
