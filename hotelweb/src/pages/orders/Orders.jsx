@@ -22,7 +22,7 @@ const Orders = () => {
     { field: "hotel", headerName: "Hotel name", minWidth: 200, renderCell: (params) => params.row.hotel.name },
     { field: "roomType", headerName: "Room type", minWidth: 150, renderCell: (params) => roomTypes[params.row.roomType] },
     { field: "breakfast", headerName: "Breakfast", minWidth: 200, renderCell: (params) => params.row.breakfast ? "Bought" : "Not bought"},
-    { field: "orderDate", headerName: "OrderDate", minWidth: 200, renderCell: (params) => params.row.orderDate.split("T")[0] },
+    { field: "orderDate", headerName: "Order date", minWidth: 200, renderCell: (params) => params.row.orderDate.split("T")[0] },
     { field: "peopleCount", headerName: "Number of people", minWidth: 200 },
     { field: "period", headerName: "Reservation in days", minWidth: 200 },
     { field: "price", headerName: "Price", minWidth: 200 },
