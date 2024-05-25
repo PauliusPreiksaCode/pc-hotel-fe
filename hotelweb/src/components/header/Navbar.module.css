@@ -1,0 +1,10 @@
+.HeaderContainer {
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    height: 7vh;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: coral;
+}
